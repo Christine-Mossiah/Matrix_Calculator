@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65B98611D98DBC30053E868 /* Adjoint_Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B98601D98DBC30053E868 /* Adjoint_Matrix.cpp */; };
+		F65B98631D98DC6E0053E868 /* Determ_Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B98621D98DC6E0053E868 /* Determ_Matrix.cpp */; };
+		F65B98651D98DD040053E868 /* Inverse_Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B98641D98DD040053E868 /* Inverse_Matrix.cpp */; };
+		F65B98671D98DD810053E868 /* Matrix_AMS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B98661D98DD810053E868 /* Matrix_AMS.cpp */; };
+		F65B98691D98DF350053E868 /* Sym_Transpose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B98681D98DF350053E868 /* Sym_Transpose.cpp */; };
+		F65B986B1D98E07E0053E868 /* Mtrxr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B986A1D98E07E0053E868 /* Mtrxr.cpp */; };
+		F65B98741D98E38B0053E868 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65B98721D98E38B0053E868 /* Main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F65B98441D9887FB0053E868 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F65B98461D9887FB0053E868 /* Matrix_Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matrix_Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65B98601D98DBC30053E868 /* Adjoint_Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Adjoint_Matrix.cpp; sourceTree = "<group>"; };
+		F65B98621D98DC6E0053E868 /* Determ_Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Determ_Matrix.cpp; sourceTree = "<group>"; };
+		F65B98641D98DD040053E868 /* Inverse_Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Inverse_Matrix.cpp; sourceTree = "<group>"; };
+		F65B98661D98DD810053E868 /* Matrix_AMS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix_AMS.cpp; sourceTree = "<group>"; };
+		F65B98681D98DF350053E868 /* Sym_Transpose.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sym_Transpose.cpp; sourceTree = "<group>"; };
+		F65B986A1D98E07E0053E868 /* Mtrxr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mtrxr.cpp; sourceTree = "<group>"; };
+		F65B986C1D98E23F0053E868 /* Adjoint_Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adjoint_Matrix.h; sourceTree = "<group>"; };
+		F65B986D1D98E23F0053E868 /* Determ_Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Determ_Matrix.h; sourceTree = "<group>"; };
+		F65B986E1D98E23F0053E868 /* Inverse_Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inverse_Matrix.h; sourceTree = "<group>"; };
+		F65B986F1D98E23F0053E868 /* Matrix_AMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix_AMS.h; sourceTree = "<group>"; };
+		F65B98701D98E23F0053E868 /* Mtrxr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mtrxr.h; sourceTree = "<group>"; };
+		F65B98711D98E23F0053E868 /* Sym_Transpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sym_Transpose.h; sourceTree = "<group>"; };
+		F65B98721D98E38B0053E868 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65B98431D9887FB0053E868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F65B983D1D9887FB0053E868 = {
+			isa = PBXGroup;
+			children = (
+				F65B98481D9887FB0053E868 /* Matrix_Calculator */,
+				F65B98471D9887FB0053E868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F65B98471D9887FB0053E868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65B98461D9887FB0053E868 /* Matrix_Calculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65B98481D9887FB0053E868 /* Matrix_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F65B98721D98E38B0053E868 /* Main.cpp */,
+				F65B986C1D98E23F0053E868 /* Adjoint_Matrix.h */,
+				F65B986D1D98E23F0053E868 /* Determ_Matrix.h */,
+				F65B986E1D98E23F0053E868 /* Inverse_Matrix.h */,
+				F65B986F1D98E23F0053E868 /* Matrix_AMS.h */,
+				F65B98701D98E23F0053E868 /* Mtrxr.h */,
+				F65B98711D98E23F0053E868 /* Sym_Transpose.h */,
+				F65B98601D98DBC30053E868 /* Adjoint_Matrix.cpp */,
+				F65B98621D98DC6E0053E868 /* Determ_Matrix.cpp */,
+				F65B98641D98DD040053E868 /* Inverse_Matrix.cpp */,
+				F65B98661D98DD810053E868 /* Matrix_AMS.cpp */,
+				F65B98681D98DF350053E868 /* Sym_Transpose.cpp */,
+				F65B986A1D98E07E0053E868 /* Mtrxr.cpp */,
+			);
+			path = Matrix_Calculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65B98451D9887FB0053E868 /* Matrix_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65B984D1D9887FB0053E868 /* Build configuration list for PBXNativeTarget "Matrix_Calculator" */;
+			buildPhases = (
+				F65B98421D9887FB0053E868 /* Sources */,
+				F65B98431D9887FB0053E868 /* Frameworks */,
+				F65B98441D9887FB0053E868 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matrix_Calculator;
+			productName = Matrix_Calculator;
+			productReference = F65B98461D9887FB0053E868 /* Matrix_Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65B983E1D9887FB0053E868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Christine Mossiah";
+				TargetAttributes = {
+					F65B98451D9887FB0053E868 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F65B98411D9887FB0053E868 /* Build configuration list for PBXProject "Matrix_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F65B983D1D9887FB0053E868;
+			productRefGroup = F65B98471D9887FB0053E868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65B98451D9887FB0053E868 /* Matrix_Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65B98421D9887FB0053E868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65B98671D98DD810053E868 /* Matrix_AMS.cpp in Sources */,
+				F65B98741D98E38B0053E868 /* Main.cpp in Sources */,
+				F65B98611D98DBC30053E868 /* Adjoint_Matrix.cpp in Sources */,
+				F65B98691D98DF350053E868 /* Sym_Transpose.cpp in Sources */,
+				F65B98631D98DC6E0053E868 /* Determ_Matrix.cpp in Sources */,
+				F65B98651D98DD040053E868 /* Inverse_Matrix.cpp in Sources */,
+				F65B986B1D98E07E0053E868 /* Mtrxr.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F65B984B1D9887FB0053E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F65B984C1D9887FB0053E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F65B984E1D9887FB0053E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F65B984F1D9887FB0053E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65B98411D9887FB0053E868 /* Build configuration list for PBXProject "Matrix_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65B984B1D9887FB0053E868 /* Debug */,
+				F65B984C1D9887FB0053E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65B984D1D9887FB0053E868 /* Build configuration list for PBXNativeTarget "Matrix_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65B984E1D9887FB0053E868 /* Debug */,
+				F65B984F1D9887FB0053E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F65B983E1D9887FB0053E868 /* Project object */;
+}
